@@ -1,5 +1,6 @@
 spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL}
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 websiteUrl : https://mustore.com #live Product
